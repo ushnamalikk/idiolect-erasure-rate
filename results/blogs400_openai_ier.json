@@ -1,0 +1,78 @@
+{
+  "corpus": "blogs",
+  "model": "gpt-4o-mini",
+  "n": 200,
+  "surface_baseline": 0.81,
+  "luar_baseline": 0.815,
+  "conditions": {
+    "heavy": {
+      "n_fallback": 0,
+      "surface": {
+        "IER": 0.20500000000000007,
+        "p_value": 2.3280151140170346e-09,
+        "acc_after": 0.605
+      },
+      "luar": {
+        "IER": 0.585,
+        "p_value": 3.1139774464017286e-30,
+        "acc_after": 0.23
+      },
+      "surface_excl_fallback": {
+        "IER": 0.20500000000000007,
+        "p_value": 2.3280151140170346e-09,
+        "acc_after": 0.605
+      },
+      "luar_excl_fallback": {
+        "IER": 0.585,
+        "p_value": 3.1139774464017286e-30,
+        "acc_after": 0.23
+      }
+    },
+    "light": {
+      "n_fallback": 6,
+      "surface": {
+        "IER": 0.03500000000000003,
+        "p_value": 0.09228515625,
+        "acc_after": 0.775
+      },
+      "luar": {
+        "IER": 0.2749999999999999,
+        "p_value": 4.869560700851427e-13,
+        "acc_after": 0.54
+      },
+      "surface_excl_fallback": {
+        "IER": 0.03608247422680411,
+        "p_value": 0.09228515625,
+        "acc_after": 0.7783505154639175
+      },
+      "luar_excl_fallback": {
+        "IER": 0.28350515463917525,
+        "p_value": 4.869560700851427e-13,
+        "acc_after": 0.5309278350515464
+      }
+    },
+    "preserve": {
+      "n_fallback": 0,
+      "surface": {
+        "IER": 0.040000000000000036,
+        "p_value": 0.076812744140625,
+        "acc_after": 0.77
+      },
+      "luar": {
+        "IER": 0.42499999999999993,
+        "p_value": 1.137373342260413e-24,
+        "acc_after": 0.39
+      },
+      "surface_excl_fallback": {
+        "IER": 0.040000000000000036,
+        "p_value": 0.076812744140625,
+        "acc_after": 0.77
+      },
+      "luar_excl_fallback": {
+        "IER": 0.42499999999999993,
+        "p_value": 1.137373342260413e-24,
+        "acc_after": 0.39
+      }
+    }
+  }
+}

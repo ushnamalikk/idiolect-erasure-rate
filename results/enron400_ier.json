@@ -1,0 +1,45 @@
+{
+  "corpus": "enron",
+  "max_words": 400,
+  "n_authors": 20,
+  "chance": 0.05,
+  "baseline_acc": 0.9375,
+  "conditions": {
+    "light": {
+      "acc_after": 0.9,
+      "IER": 0.03749999999999998,
+      "ci95": [
+        -0.025,
+        0.1
+      ],
+      "p_value": 0.453125,
+      "b": 5,
+      "c": 2,
+      "frac_signal_destroyed": 0.03999999999999997
+    },
+    "heavy": {
+      "acc_after": 0.65,
+      "IER": 0.2875,
+      "ci95": [
+        0.1875,
+        0.4
+      ],
+      "p_value": 1.5497207641601562e-06,
+      "b": 24,
+      "c": 1,
+      "frac_signal_destroyed": 0.30666666666666664
+    },
+    "preserve": {
+      "acc_after": 0.7125,
+      "IER": 0.22499999999999998,
+      "ci95": [
+        0.1375,
+        0.325
+      ],
+      "p_value": 7.62939453125e-06,
+      "b": 18,
+      "c": 0,
+      "frac_signal_destroyed": 0.23999999999999996
+    }
+  }
+}

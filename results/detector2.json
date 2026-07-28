@@ -1,0 +1,20 @@
+{
+  "n": 200,
+  "n_positive_control": 30,
+  "detectors": {
+    "chatgpt-detector-roberta": {
+      "original": 0.025,
+      "light": 0.075,
+      "heavy": 0.29,
+      "preserve": 0.185,
+      "positive_control_fully_AI": 0.9
+    },
+    "roberta-base-openai-detector": {
+      "original": 0.06,
+      "light": 0.13,
+      "heavy": 0.24,
+      "preserve": 0.165,
+      "positive_control_fully_AI": 0.9
+    }
+  }
+}

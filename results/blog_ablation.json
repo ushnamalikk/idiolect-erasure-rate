@@ -1,0 +1,13 @@
+{
+  "n_names": 27,
+  "surface": {
+    "baseline_stripped": 0.82,
+    "baseline_orig": 0.81,
+    "heavy_IER_stripped": 0.39499999999999996
+  },
+  "luar": {
+    "baseline_stripped": 0.8,
+    "baseline_orig": 0.815,
+    "heavy_IER_stripped": 0.665
+  }
+}

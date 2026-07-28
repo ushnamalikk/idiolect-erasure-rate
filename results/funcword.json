@@ -1,0 +1,65 @@
+{
+  "blogs": {
+    "baseline_acc": 0.335,
+    "chance": 0.02,
+    "conditions": {
+      "light": {
+        "acc_after": 0.245,
+        "IER": 0.09000000000000002,
+        "p_value": 0.00393317302223295
+      },
+      "heavy": {
+        "acc_after": 0.105,
+        "IER": 0.23000000000000004,
+        "p_value": 1.709326186236787e-09
+      },
+      "preserve": {
+        "acc_after": 0.155,
+        "IER": 0.18000000000000002,
+        "p_value": 2.0315945360449565e-06
+      }
+    }
+  },
+  "enron": {
+    "baseline_acc": 0.275,
+    "chance": 0.05,
+    "conditions": {
+      "light": {
+        "acc_after": 0.225,
+        "IER": 0.05000000000000002,
+        "p_value": 0.34375
+      },
+      "heavy": {
+        "acc_after": 0.1875,
+        "IER": 0.08750000000000002,
+        "p_value": 0.143463134765625
+      },
+      "preserve": {
+        "acc_after": 0.2,
+        "IER": 0.07500000000000001,
+        "p_value": 0.237884521484375
+      }
+    }
+  },
+  "c50": {
+    "baseline_acc": 0.33,
+    "chance": 0.04,
+    "conditions": {
+      "light": {
+        "acc_after": 0.22,
+        "IER": 0.11000000000000001,
+        "p_value": 0.00341796875
+      },
+      "heavy": {
+        "acc_after": 0.06,
+        "IER": 0.27,
+        "p_value": 1.4011748135089874e-06
+      },
+      "preserve": {
+        "acc_after": 0.12,
+        "IER": 0.21000000000000002,
+        "p_value": 0.00010371580719947815
+      }
+    }
+  }
+}

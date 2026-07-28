@@ -1,0 +1,85 @@
+{
+  "corpus": "enron",
+  "n_authors": 25,
+  "n_msgs": 100,
+  "chance": 0.04,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "attributers": {
+    "stylometric": {
+      "baseline_acc": 0.66,
+      "conditions": {
+        "light": {
+          "acc_after": 0.62,
+          "IER": 0.040000000000000036,
+          "IER_ci95": [
+            -0.03,
+            0.11
+          ],
+          "p_value": 0.3876953125,
+          "b": 8,
+          "c": 4
+        },
+        "heavy": {
+          "acc_after": 0.41,
+          "IER": 0.25000000000000006,
+          "IER_ci95": [
+            0.15,
+            0.35
+          ],
+          "p_value": 1.0928604751825333e-05,
+          "b": 29,
+          "c": 4
+        },
+        "preserve": {
+          "acc_after": 0.43,
+          "IER": 0.23000000000000004,
+          "IER_ci95": [
+            0.15,
+            0.32
+          ],
+          "p_value": 2.384185791015625e-07,
+          "b": 23,
+          "c": 0
+        }
+      }
+    },
+    "neural": {
+      "baseline_acc": 0.4,
+      "conditions": {
+        "light": {
+          "acc_after": 0.41,
+          "IER": -0.009999999999999953,
+          "IER_ci95": [
+            -0.06,
+            0.04
+          ],
+          "p_value": 1.0,
+          "b": 3,
+          "c": 4
+        },
+        "heavy": {
+          "acc_after": 0.34,
+          "IER": 0.06,
+          "IER_ci95": [
+            -0.02,
+            0.14
+          ],
+          "p_value": 0.237884521484375,
+          "b": 12,
+          "c": 6
+        },
+        "preserve": {
+          "acc_after": 0.34,
+          "IER": 0.06,
+          "IER_ci95": [
+            -0.01,
+            0.13
+          ],
+          "p_value": 0.1795654296875,
+          "b": 10,
+          "c": 4
+        }
+      }
+    }
+  }
+}

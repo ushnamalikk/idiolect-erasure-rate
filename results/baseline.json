@@ -1,0 +1,8 @@
+{
+  "n_authors": 50,
+  "n_test": 2500,
+  "chance": 0.02,
+  "max_words": null,
+  "stylometric_acc": 0.7328,
+  "neural_acc": 0.5584
+}

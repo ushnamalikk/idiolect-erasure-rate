@@ -1,0 +1,26 @@
+{
+  "blogs": {
+    "loo_orig": 0.605,
+    "loo_rewr": 0.155,
+    "chance": 0.02,
+    "separability_retained": 0.256198347107438,
+    "heavy_IER": 0.6649999999999999,
+    "author_cluster_ci95": [
+      0.585,
+      0.74
+    ],
+    "n_authors": 50
+  },
+  "enron": {
+    "loo_orig": 0.35,
+    "loo_rewr": 0.075,
+    "chance": 0.05,
+    "separability_retained": 0.2142857142857143,
+    "heavy_IER": 0.525,
+    "author_cluster_ci95": [
+      0.3125,
+      0.7125
+    ],
+    "n_authors": 20
+  }
+}

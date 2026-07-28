@@ -1,0 +1,26 @@
+{
+  "baseline_surface": 0.59,
+  "baseline_neural": 0.385,
+  "points": {
+    "Qwen-0.5B": {
+      "rank": 1,
+      "IER_surface": 0.35,
+      "IER_neural": 0.09500000000000003
+    },
+    "Qwen-1.5B": {
+      "rank": 2,
+      "IER_surface": 0.33499999999999996,
+      "IER_neural": 0.09500000000000003
+    },
+    "Qwen-3B": {
+      "rank": 3,
+      "IER_surface": 0.36,
+      "IER_neural": 0.09000000000000002
+    },
+    "gpt-4o-mini": {
+      "rank": 4,
+      "IER_surface": 0.27499999999999997,
+      "IER_neural": 0.07
+    }
+  }
+}

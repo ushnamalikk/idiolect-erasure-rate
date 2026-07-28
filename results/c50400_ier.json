@@ -1,0 +1,45 @@
+{
+  "corpus": "c50",
+  "max_words": 400,
+  "n_authors": 25,
+  "chance": 0.04,
+  "baseline_acc": 0.91,
+  "conditions": {
+    "light": {
+      "acc_after": 0.84,
+      "IER": 0.07000000000000006,
+      "ci95": [
+        0.02,
+        0.12
+      ],
+      "p_value": 0.015625,
+      "b": 7,
+      "c": 0,
+      "frac_signal_destroyed": 0.07692307692307698
+    },
+    "heavy": {
+      "acc_after": 0.81,
+      "IER": 0.09999999999999998,
+      "ci95": [
+        0.04,
+        0.17
+      ],
+      "p_value": 0.00634765625,
+      "b": 11,
+      "c": 1,
+      "frac_signal_destroyed": 0.10989010989010986
+    },
+    "preserve": {
+      "acc_after": 0.79,
+      "IER": 0.12,
+      "ci95": [
+        0.05,
+        0.19
+      ],
+      "p_value": 0.0018310546875,
+      "b": 13,
+      "c": 1,
+      "frac_signal_destroyed": 0.13186813186813187
+    }
+  }
+}

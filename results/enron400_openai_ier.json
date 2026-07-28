@@ -1,0 +1,78 @@
+{
+  "corpus": "enron",
+  "model": "gpt-4o-mini",
+  "n": 80,
+  "surface_baseline": 0.9375,
+  "luar_baseline": 0.7125,
+  "conditions": {
+    "heavy": {
+      "n_fallback": 0,
+      "surface": {
+        "IER": 0.09999999999999998,
+        "p_value": 0.021484375,
+        "acc_after": 0.8375
+      },
+      "luar": {
+        "IER": 0.5375000000000001,
+        "p_value": 6.981082378842984e-11,
+        "acc_after": 0.175
+      },
+      "surface_excl_fallback": {
+        "IER": 0.09999999999999998,
+        "p_value": 0.021484375,
+        "acc_after": 0.8375
+      },
+      "luar_excl_fallback": {
+        "IER": 0.5375000000000001,
+        "p_value": 6.981082378842984e-11,
+        "acc_after": 0.175
+      }
+    },
+    "light": {
+      "n_fallback": 8,
+      "surface": {
+        "IER": 0.025000000000000022,
+        "p_value": 0.5,
+        "acc_after": 0.9125
+      },
+      "luar": {
+        "IER": 0.17500000000000004,
+        "p_value": 0.004343509674072266,
+        "acc_after": 0.5375
+      },
+      "surface_excl_fallback": {
+        "IER": 0.02777777777777779,
+        "p_value": 0.5,
+        "acc_after": 0.9166666666666666
+      },
+      "luar_excl_fallback": {
+        "IER": 0.19444444444444442,
+        "p_value": 0.004343509674072266,
+        "acc_after": 0.5277777777777778
+      }
+    },
+    "preserve": {
+      "n_fallback": 0,
+      "surface": {
+        "IER": 0.03749999999999998,
+        "p_value": 0.453125,
+        "acc_after": 0.9
+      },
+      "luar": {
+        "IER": 0.41250000000000003,
+        "p_value": 3.608874976634979e-08,
+        "acc_after": 0.3
+      },
+      "surface_excl_fallback": {
+        "IER": 0.03749999999999998,
+        "p_value": 0.453125,
+        "acc_after": 0.9
+      },
+      "luar_excl_fallback": {
+        "IER": 0.41250000000000003,
+        "p_value": 3.608874976634979e-08,
+        "acc_after": 0.3
+      }
+    }
+  }
+}

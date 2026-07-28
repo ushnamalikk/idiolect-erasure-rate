@@ -1,0 +1,15 @@
+{
+  "model": "vennify/t5-base-grammar-correction",
+  "surface": {
+    "baseline": 0.81,
+    "acc_after": 0.675,
+    "IER": 0.135,
+    "p_value": 3.4654513001441956e-06
+  },
+  "luar": {
+    "baseline": 0.815,
+    "acc_after": 0.665,
+    "IER": 0.1499999999999999,
+    "p_value": 2.8288777684792876e-06
+  }
+}

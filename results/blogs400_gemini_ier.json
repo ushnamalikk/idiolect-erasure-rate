@@ -1,0 +1,78 @@
+{
+  "corpus": "blogs",
+  "model": "gemini-flash-latest",
+  "n": 200,
+  "surface_baseline": 0.81,
+  "luar_baseline": 0.815,
+  "conditions": {
+    "heavy": {
+      "n_fallback": 0,
+      "surface": {
+        "IER": 0.31500000000000006,
+        "p_value": 8.735848890518809e-16,
+        "acc_after": 0.495
+      },
+      "luar": {
+        "IER": 0.605,
+        "p_value": 1.320746784697252e-30,
+        "acc_after": 0.21
+      },
+      "surface_excl_fallback": {
+        "IER": 0.31500000000000006,
+        "p_value": 8.735848890518809e-16,
+        "acc_after": 0.495
+      },
+      "luar_excl_fallback": {
+        "IER": 0.605,
+        "p_value": 1.320746784697252e-30,
+        "acc_after": 0.21
+      }
+    },
+    "light": {
+      "n_fallback": 1,
+      "surface": {
+        "IER": 0.010000000000000009,
+        "p_value": 0.79052734375,
+        "acc_after": 0.8
+      },
+      "luar": {
+        "IER": 0.30999999999999994,
+        "p_value": 6.387730835678276e-15,
+        "acc_after": 0.505
+      },
+      "surface_excl_fallback": {
+        "IER": 0.01005025125628134,
+        "p_value": 0.79052734375,
+        "acc_after": 0.8040201005025126
+      },
+      "luar_excl_fallback": {
+        "IER": 0.31155778894472363,
+        "p_value": 6.387730835678276e-15,
+        "acc_after": 0.5025125628140703
+      }
+    },
+    "preserve": {
+      "n_fallback": 0,
+      "surface": {
+        "IER": 0.020000000000000018,
+        "p_value": 0.454498291015625,
+        "acc_after": 0.79
+      },
+      "luar": {
+        "IER": 0.31999999999999995,
+        "p_value": 9.694461487914918e-17,
+        "acc_after": 0.495
+      },
+      "surface_excl_fallback": {
+        "IER": 0.020000000000000018,
+        "p_value": 0.454498291015625,
+        "acc_after": 0.79
+      },
+      "luar_excl_fallback": {
+        "IER": 0.31999999999999995,
+        "p_value": 9.694461487914918e-17,
+        "acc_after": 0.495
+      }
+    }
+  }
+}

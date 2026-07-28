@@ -1,0 +1,17 @@
+{
+  "blogs": {
+    "content_baseline": 0.78,
+    "content_heavy_IER": 0.28500000000000003,
+    "p_value": 1.4195339782113736e-13
+  },
+  "enron": {
+    "content_baseline": 0.925,
+    "content_heavy_IER": 0.32500000000000007,
+    "p_value": 2.1606683731079102e-07
+  },
+  "c50": {
+    "content_baseline": 0.89,
+    "content_heavy_IER": 0.09999999999999998,
+    "p_value": 0.00634765625
+  }
+}

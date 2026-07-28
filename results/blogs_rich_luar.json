@@ -1,0 +1,42 @@
+{
+  "profile_posts": 60,
+  "baseline_acc": 0.775,
+  "conditions": {
+    "light": {
+      "acc_after": 0.42,
+      "IER": 0.35500000000000004,
+      "ci95": [
+        0.28,
+        0.425
+      ],
+      "p_value": 5.2434681244715905e-18,
+      "b": 75,
+      "c": 4,
+      "frac_signal_destroyed": 0.4580645161290323
+    },
+    "heavy": {
+      "acc_after": 0.165,
+      "IER": 0.61,
+      "ci95": [
+        0.545,
+        0.675
+      ],
+      "p_value": 1.1754943508222875e-35,
+      "b": 123,
+      "c": 1,
+      "frac_signal_destroyed": 0.7870967741935484
+    },
+    "preserve": {
+      "acc_after": 0.22,
+      "IER": 0.555,
+      "ci95": [
+        0.48,
+        0.63
+      ],
+      "p_value": 3.214304854809382e-30,
+      "b": 114,
+      "c": 3,
+      "frac_signal_destroyed": 0.7161290322580646
+    }
+  }
+}

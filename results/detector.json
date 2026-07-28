@@ -1,0 +1,10 @@
+{
+  "detector": "Hello-SimpleAI/chatgpt-detector-roberta",
+  "n": 200,
+  "ai_flag_rate": {
+    "original": 0.02,
+    "light": 0.12,
+    "heavy": 0.19,
+    "preserve": 0.19
+  }
+}

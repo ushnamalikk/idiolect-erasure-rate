@@ -1,0 +1,19 @@
+{
+  "corpus": "blogs",
+  "model": "rrivera1849/LUAR-MUD",
+  "baseline_acc": 0.71,
+  "conditions": {
+    "light": {
+      "acc_after": 0.39,
+      "IER": 0.31999999999999995
+    },
+    "heavy": {
+      "acc_after": 0.175,
+      "IER": 0.5349999999999999
+    },
+    "preserve": {
+      "acc_after": 0.22,
+      "IER": 0.49
+    }
+  }
+}

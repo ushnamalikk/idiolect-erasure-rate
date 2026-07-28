@@ -1,0 +1,80 @@
+{
+  "n_items": 100,
+  "n_authors": 25,
+  "stylometric": {
+    "baseline_acc": 0.8,
+    "conditions": {
+      "light": {
+        "acc_after": 0.74,
+        "IER": 0.06000000000000005,
+        "IER_ci95": [
+          0.02,
+          0.11
+        ],
+        "mcnemar_b_was_right_now_wrong": 6,
+        "mcnemar_c_was_wrong_now_right": 0,
+        "p_value": 0.03125
+      },
+      "heavy": {
+        "acc_after": 0.63,
+        "IER": 0.17000000000000004,
+        "IER_ci95": [
+          0.09,
+          0.26
+        ],
+        "mcnemar_b_was_right_now_wrong": 19,
+        "mcnemar_c_was_wrong_now_right": 2,
+        "p_value": 0.00022125244140625
+      },
+      "preserve": {
+        "acc_after": 0.66,
+        "IER": 0.14,
+        "IER_ci95": [
+          0.07,
+          0.21
+        ],
+        "mcnemar_b_was_right_now_wrong": 14,
+        "mcnemar_c_was_wrong_now_right": 0,
+        "p_value": 0.0001220703125
+      }
+    }
+  },
+  "neural": {
+    "baseline_acc": 0.67,
+    "conditions": {
+      "light": {
+        "acc_after": 0.69,
+        "IER": -0.019999999999999907,
+        "IER_ci95": [
+          -0.05,
+          0.0
+        ],
+        "mcnemar_b_was_right_now_wrong": 0,
+        "mcnemar_c_was_wrong_now_right": 2,
+        "p_value": 0.5
+      },
+      "heavy": {
+        "acc_after": 0.68,
+        "IER": -0.010000000000000009,
+        "IER_ci95": [
+          -0.05,
+          0.03
+        ],
+        "mcnemar_b_was_right_now_wrong": 2,
+        "mcnemar_c_was_wrong_now_right": 3,
+        "p_value": 1.0
+      },
+      "preserve": {
+        "acc_after": 0.68,
+        "IER": -0.010000000000000009,
+        "IER_ci95": [
+          -0.08,
+          0.06
+        ],
+        "mcnemar_b_was_right_now_wrong": 6,
+        "mcnemar_c_was_wrong_now_right": 7,
+        "p_value": 1.0
+      }
+    }
+  }
+}

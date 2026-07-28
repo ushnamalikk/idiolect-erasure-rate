@@ -1,0 +1,38 @@
+{
+  "n_docs": 100,
+  "n_authors": 25,
+  "chance": 0.02,
+  "max_words": 90,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "baseline_subset_acc": {
+    "stylometric": 0.8,
+    "neural": 0.67
+  },
+  "orig_centroid_sim": 0.3650086522102356,
+  "conditions": {
+    "light": {
+      "stylometric_acc_after": 0.74,
+      "neural_acc_after": 0.69,
+      "IER_stylometric": 0.06000000000000005,
+      "IER_neural": -0.019999999999999907,
+      "rewrite_centroid_sim": 0.3712446987628937,
+      "drift_toward_mean": 0.006236046552658081
+    },
+    "heavy": {
+      "stylometric_acc_after": 0.63,
+      "neural_acc_after": 0.68,
+      "IER_stylometric": 0.17000000000000004,
+      "IER_neural": -0.010000000000000009,
+      "rewrite_centroid_sim": 0.3579280972480774,
+      "drift_toward_mean": -0.007080554962158203
+    },
+    "preserve": {
+      "stylometric_acc_after": 0.66,
+      "neural_acc_after": 0.68,
+      "IER_stylometric": 0.14,
+      "IER_neural": -0.010000000000000009,
+      "rewrite_centroid_sim": 0.3642646372318268,
+      "drift_toward_mean": -0.0007440149784088135
+    }
+  }
+}

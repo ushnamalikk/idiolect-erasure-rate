@@ -1,0 +1,18 @@
+{
+  "model": "rrivera1849/LUAR-MUD",
+  "baseline_acc": 0.54,
+  "conditions": {
+    "light": {
+      "acc_after": 0.52,
+      "IER": 0.020000000000000018
+    },
+    "heavy": {
+      "acc_after": 0.54,
+      "IER": 0.0
+    },
+    "preserve": {
+      "acc_after": 0.52,
+      "IER": 0.020000000000000018
+    }
+  }
+}
